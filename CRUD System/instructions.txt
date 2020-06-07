@@ -1,0 +1,35 @@
+Assalamualaikum......
+
+#____________________DATABASE________________________________
+Database Name: crud
+Databse Server: localhost
+Database User: root
+Database Password: ""
+#____________________INSTRUCTION____________________________
+1. index.php is the homepage
+2. An user will be saved in database using INSERT button
+	-password must be at least 5 charecters
+		-password is used hashed function for security
+	-email must be valid (validated exmpple:checking @, ., etc)
+	-file must be jpg, jpeg, png otherwise will not execute.
+	-File will be saved in the directory mentioned in code and put the
+	 file name in database. So that database will saves the memory.
+3. All the users will be shown in the table below the INSERT segment
+4. An user will be deleted from database after clicking the DELETE button.
+	-Also delete all the photos related with that user from Directory.
+5. An user information such as password, photos can be UPDATED by clicking the UPDATE button
+	-An user can not change his email. But can show the email in the text field.
+	-An user need to type the current password if he wants to update
+		-So that other user can't change the data of the user.
+	-If user want his current password unchanged then he can tick the chekbox
+	 but he must type the current password as well
+6. Photo must be inserted in order to execute update operations.
+:: to know more how I did it. Please have a look in codes. I have commented on every
+   important segment.
+
+#__________________________________________________________
+this is the sample of CRUD system. 
+However all the functionality can be generalized more depending on the requirements.
+thanks for giving time.....
+
+
