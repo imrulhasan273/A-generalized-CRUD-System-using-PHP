@@ -55,7 +55,7 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="text-center">BiTechX Test</h1>
+            <h1 class="text-center">CRUD Operation</h1>
             <form method="post" class="mx-auto pt-5" style="max-width:700px;" enctype='multipart/form-data'>
                 <div class="form-group">
                     <label>Email</label>
